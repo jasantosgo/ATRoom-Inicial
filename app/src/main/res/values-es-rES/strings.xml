@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trivial Android</string>
+    <string name="game_over">Fin del juego</string>
+    <string name="try_again">¿Continuar?</string>
+    <string name="position">Posición</string>
+    <string name="select_an_avatar">Selecciona un avatar</string>
+    <string name="android_trivia">Trivial Android</string>
+    <string name="about_text">Trivial Android te ayudará a consolidar los conceptos trabajados durante esta unidad.\n\nPersonaliza Android Trivial y dale tu toque personal!</string>
+    <string name="rules_text">Selecciona la respuesta correcta de las opciones dadas. Si contestas correctamente conseguirás rachas que multiplicarán tu puntuación. Pero si usas las pistas, puntuarás la mitad.\n\nSi contestas erróneamente, el juego termina!\nPuedes reintentarlo o salir.\n Ganes o pierdas podrás compartir tus resultados obtenidos.</string>
+    <string name="rules">Reglas</string>
+    <string name="about">Sobre</string>
+    <string name="trivia_hint">Pista Trivial</string>
+    <string name="title_android_trivia_question">Trivial Android (%1$d/%2$d). Puntos: %3$d. </string>
+    <string name="title_about_trivia">Sobre Trivial</string>
+    <string name="title_trivia_rules">Reglas Trivial</string>
+    <string name="share_success_text">He superado #UdacityAndroidTrivia con %1$d/%2$d preguntas correctas!</string>
+    <string name="submit_button">Enviar</string>
+    <string name="congratulations">¡Felicidades!</string>
+    <string name="share">Compartir</string>
+    <string name="sharing_not_available">Compartición no disponible</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento blanco</string>
+    <string name="reglas">Reglas</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="Nivel">Nivel</string>
+    <string name="debes_selec_nivel">"Debes seleccionar un nivel."</string>
+    <string name="seleccion_nivel">Selecciona un nivel:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="volver">Volver</string>
+    <string name="desc_img_rules">Descripción imagen de reglas</string>
+    <string name="play">Jugar</string>
+    <string name="nivel_puntuacion">Nivel: %1$s.</string>
+    <string name="pista">Pista</string>
+    <string name="total_score">Felicidades, has obtenido %1$d droids. Has contestado %2$d/%3$d preguntas correctamente.</string>
+    <string name="exit">Salir</string>
+    <string name="proxima">Reintentar</string>
+    <string-array name="niveles">
+        <item>Fácil</item>
+        <item>Medio</item>
+        <item>Difícil</item>
+    </string-array>
+    <string-array name="preguntas">
+        <item>¿Qué es Android Jetpack?"</item>
+        <item>Todas esas</item>
+        <item>Herramientas</item>
+        <item>Documentación</item>
+        <item>Bibliotecas</item>
+        <item>Es muy completa.</item>
+        <item>¿Cuál es la clase base para layouts?</item>
+        <item>ViewGroup</item>
+        <item>ViewSet</item>
+        <item>ViewCollection</item>
+        <item>ViewRoot</item>
+        <item>Trabaja como un contenedor invisible.</item>
+        <item>¿Qué layout se usa para pantallas complejas?</item>
+        <item>ConstraintLayout</item>
+        <item>GridLayout</item>
+        <item>LinearLayout</item>
+        <item>FrameLayout</item>
+        <item>Este layout usa restricciones entre elementos.</item>
+        <item>¿Qué usas para poner datos estructurados en un layout?</item>
+        <item>Data binding</item>
+        <item>Data pushing</item>
+        <item>Set text</item>
+        <item>An OnClick method</item>
+        <item>Es una técnica para enlazar XML con ficheros Kotlin.</item>
+        <item>¿Qué método se usa para "inflar" layouts en fragmentos?</item>
+        <item>onCreateView()</item>
+        <item>onActivityCreated()</item>
+        <item>onCreateLayout()</item>
+        <item>onInflateLayout()</item>
+        <item>Este método está relacionado con los "elementos".</item>
+        <item>¿Cuál es el sistema de compilación de Android?</item>
+        <item>Gradle</item>
+        <item>Graddle</item>
+        <item>Grodle</item>
+        <item>Groyle</item>
+        <item>Es usado para compilación.</item>
+        <item>¿Qué clase se usa para crear un vector dibujable?</item>
+        <item>VectorDrawable</item>
+        <item>AndroidVectorDrawable</item>
+        <item>DrawableVector</item>
+        <item>AndroidVector</item>
+        <item>Tienta tu suerte...</item>
+        <item>¿Cuál de esos es un componente de navegación de Android?</item>
+        <item>NavController</item>
+        <item>NavCentral</item>
+        <item>NavMaster</item>
+        <item>NavSwitcher</item>
+        <item>Es un contolador.</item>
+        <item>¿Qué elemento XML te permite registrar una actividad con el lanzador de actividad?</item>
+        <item>intent-filter</item>
+        <item>app-registry</item>
+        <item>launcher-registry</item>
+        <item>app-launcher</item>
+        <item>Es similar para comunicar actividades.</item>
+        <item>¿Qúe se usa para marcar un layout para data binding?</item>
+        <item>layout</item>
+        <item>binding</item>
+        <item>data-binding</item>
+        <item>dbinding</item>
+        <item>Primera etiqueta necesaria en ficheros XML.</item>
+    </string-array>
+</resources>

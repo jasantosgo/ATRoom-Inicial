@@ -1,0 +1,122 @@
+<!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Android Trivia </string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="android_trivia">Android Trivia</string>
+    <string name="about_text">Android Trivia will help remind you of important concepts you have learned and will learn in Android development.\n\nConsider modifying the questions and graphics to make this game your own!</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d). Score: %3$d. </string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="title_trivia_rules">Trivia Rules</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reglas">Rules</string>
+    <string name="acerca_de">About</string>
+    <string name="Nivel">Level</string>
+    <string name="debes_selec_nivel">"You must select a level."</string>
+    <string name="seleccion_nivel">Select a level:</string>
+    <string name="cancelar">Cancel</string>
+    <string name="aceptar">Accept</string>
+    <string name="volver">Back</string>
+    <string name="desc_img_rules">Descripción imagen de reglas</string>
+    <string name="play">Play</string>
+    <string name="nivel_puntuacion">Level: %1$s.</string>
+    <string name="pista">Hint</string>
+    <string name="total_score">Congratulations, you got %1$d droids. You answered %2$d/%3$d questions correctly.</string>
+    <string name="exit">Exit</string>
+    <string name="proxima">Retry?</string>
+    <string-array name="niveles">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="preguntas">
+        <item>What is Android Jetpack?"</item>
+        <item>All of these</item>
+        <item>Tools</item>
+        <item>Documentation</item>
+        <item>Libraries</item>
+        <item>It is very complete</item>
+        <item>What is the base class for layouts?</item>
+        <item>ViewGroup</item>
+        <item>ViewSet</item>
+        <item>ViewCollection</item>
+        <item>ViewRoot</item>
+        <item>It works as an invisible container</item>
+        <item>What layout do you use for complex screens?</item>
+        <item>ConstraintLayout</item>
+        <item>GridLayout</item>
+        <item>LinearLayout</item>
+        <item>FrameLayout</item>
+        <item>This layout uses restrictions between Views</item>
+        <item>What do you use to push structured data into a layout?</item>
+        <item>Data binding</item>
+        <item>Data pushing</item>
+        <item>Set text</item>
+        <item>An OnClick method</item>
+        <item>It is a technique to linking XML with Kotlin files.</item>
+        <item>What method do you use to inflate layouts in fragments?</item>
+        <item>onCreateView()</item>
+        <item>onActivityCreated()</item>
+        <item>onCreateLayout()</item>
+        <item>onInflateLayout()</item>
+        <item>This method is related to views.</item>
+        <item>What is the build system for Android?</item>
+        <item>Gradle</item>
+        <item>Graddle</item>
+        <item>Grodle</item>
+        <item>Groyle</item>
+        <item>It is used for compilation.</item>
+        <item>Which class do you use to create a vector drawable?</item>
+        <item>VectorDrawable</item>
+        <item>AndroidVectorDrawable</item>
+        <item>DrawableVector</item>
+        <item>AndroidVector</item>
+        <item>Push your luck...</item>
+        <item>Which one of these is an Android navigation component?</item>
+        <item>NavController</item>
+        <item>NavCentral</item>
+        <item>NavMaster</item>
+        <item>NavSwitcher</item>
+        <item>It is a driver.</item>
+        <item>Which XML element lets you register an activity with the launcher activity?</item>
+        <item>intent-filter</item>
+        <item>app-registry</item>
+        <item>launcher-registry</item>
+        <item>app-launcher</item>
+        <item>It is similar to comunicate activities.</item>
+        <item>What do you use to mark a layout for data binding?</item>
+        <item>layout</item>
+        <item>binding</item>
+        <item>data-binding</item>
+        <item>dbinding</item>
+        <item>First needed tag in XML files.</item>
+    </string-array>
+</resources>
