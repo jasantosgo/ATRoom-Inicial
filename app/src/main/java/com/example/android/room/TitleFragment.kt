@@ -11,11 +11,6 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 
 
-/**
- * A simple [Fragment] subclass.
- * Use the [TitleFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class TitleFragment : Fragment() {
 
     private var nivel : Int = -1
@@ -50,7 +45,7 @@ class TitleFragment : Fragment() {
         }
 
         binding.btnLevel.setOnClickListener {
-            mostrarLevelDialog(it)
+            mostrarLevelDialog()
         }
 
         setHasOptionsMenu(true)
@@ -69,12 +64,12 @@ class TitleFragment : Fragment() {
                 || super.onOptionsItemSelected(item)
     }
 
-    fun mostrarLevelDialog(view : View) {
+    fun mostrarLevelDialog() {
         val singleItems = resources.getStringArray(R.array.niveles)
         val checkedItem = nivel
         var intermedio = nivel
 
-        MaterialAlertDialogBuilder(view.context)
+        MaterialAlertDialogBuilder(requireView().context)
             .setTitle(R.string.seleccion_nivel)
             .setNeutralButton(R.string.cancelar) { dialog, which ->
                 // Respond to neutral button press
@@ -90,23 +85,5 @@ class TitleFragment : Fragment() {
                 intermedio=which
             }
             .show()
-    }
-
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment TitleFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            TitleFragment().apply {
-                arguments = Bundle().apply {
-                }
-            }
     }
 }
